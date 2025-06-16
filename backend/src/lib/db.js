@@ -14,7 +14,7 @@ export const connectDB = async () => {
 
     
 
-    const conn = await await mongoose.connect("mongodb+srv://nitesh2203:nitesh%4022@cluster0.qk5zcce.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+    const conn = await await mongoose.connect("ujjvalagarwalcse26:WCQqhLnI4C2ppYv2@cluster0.ynk9coz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
     console.log(`✅ MongoDB connected: ${conn.connection.host}`);
   } catch (error) {
     console.error(`❌ MongoDB connection error: ${error.message}`);
